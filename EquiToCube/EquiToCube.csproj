@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.2</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SixLabors.ImageSharp" Version="1.0.0-beta0006" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Input\" />
+    <Folder Include="Output\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Output\Back.jpg" />
+    <None Remove="Output\Bottom.jpg" />
+    <None Remove="Output\Left.jpg" />
+    <None Remove="Output\Front.jpg" />
+    <None Remove="Output\Right.jpg" />
+    <None Remove="Output\Top.jpg" />
+    <None Remove="Images\equi00.jpg" />
+  </ItemGroup>
+</Project>
